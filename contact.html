@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | My Simple Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Simple Blog</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <main>
+            <h2>Contact Us</h2>
+            <p>If you have any questions or comments, feel free to reach out to us using the contact form below or through other means listed on this page.</p>
+
+            <!-- Contact Form -->
+            <section class="contact-form">
+                <form action="submit-form.php" method="POST">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+
+            <!-- Additional Contact Information -->
+            <section class="contact-details">
+                <h3>Other Ways to Reach Us</h3>
+                <p>If you prefer to reach us directly, here are some ways to do so:</p>
+
+                <ul>
+                    <li>Email: <a href="mailto:info@mysimpleblog.com">info@mysimpleblog.com</a></li>
+                    <li>Phone: +1 (555) 123-4567</li>
+                    <li>Address: 123 Blog Street, City, State, Country</li>
+                </ul>
+
+                <h3>Follow Us on Social Media</h3>
+                <p>Stay connected with us through our social media accounts:</p>
+                <ul>
+                    <li><a href="https://www.facebook.com/MySimpleBlog" target="_blank">Facebook</a></li>
+                    <li><a href="https://twitter.com/MySimpleBlog" target="_blank">Twitter</a></li>
+                    <li><a href="https://www.instagram.com/MySimpleBlog" target="_blank">Instagram</a></li>
+                    <li><a href="https://www.linkedin.com/company/MySimpleBlog" target="_blank">LinkedIn</a></li>
+                </ul>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 My Simple Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
